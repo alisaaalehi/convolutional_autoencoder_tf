@@ -1,7 +1,7 @@
 # Convolutional Autoencoder
 
 ### What is this?
- A tensorflow implementation of an autoencoder. In its simplest form, it has just one convolutional layer for encoding the input image and one deconvolution layer (or inverse or transpose convolution or whatever that you would like to call it).
+ A tensorflow implementation of an autoencoder. In its simplest form, it has just one convolutional layer for encoding the input image and one deconvolution layer (or transpose convolution or fractionally strided convolution or whatever that you would like to call it). There is another fucntion to test with a deeper network.
 
 ### What is the purpose?
 Having a simple network so I can take a look at the trained filters of the convolution and deconvolution parts of the network.
